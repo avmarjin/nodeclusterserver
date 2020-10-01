@@ -1,4 +1,3 @@
-// const process = require("process")
 const {sendData, getNodes} = require('./comm.js')
 const child = require('child_process')
 const net = require('net');
@@ -53,7 +52,7 @@ let ipc = net.createServer(function (connect) {
 		// console.log('client closed!');
 	});
 	connect.on("data",function (data) {
-         // server accepts the data sent by the client
+         
         let datacontent = JSON.parse(data)
         switch(datacontent.type) {
             case "task": {
