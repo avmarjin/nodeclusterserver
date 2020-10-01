@@ -1,0 +1,5 @@
+{
+    "nodes": 6,
+    "heartBeat": 500,
+    "taskInterval": 1000
+}

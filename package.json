@@ -1,0 +1,21 @@
+{
+  "name": "nscluster",
+  "version": "1.0.0",
+  "description": "Home task",
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js",
+    "dev": "nodemon worker.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "log4js": "^6.3.0",
+    "net": "^1.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
