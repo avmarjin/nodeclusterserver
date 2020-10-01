@@ -1,3 +1,7 @@
-npm install
+### npm install
 
-npm start
+Install all dependencies
+
+### npm start
+
+Start the server
