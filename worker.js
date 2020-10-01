@@ -19,6 +19,10 @@ log4js.configure({
 
 const logger = log4js.getLogger("nodecluster");
 
+if (!fs.existsSync("pids")) {
+    fs.mkdirSync("pids");
+}
+
 let rawdata = fs.readFileSync('cluster_settings.json');
 let conf = JSON.parse(rawdata);
 
